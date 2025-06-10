@@ -1,0 +1,429 @@
+lockVersion: 2.0.0
+id: 69cd9a2e-6429-4c97-b659-d491fb64de7b
+management:
+  docChecksum: b9af8a0da3a9dff37b670275e1731568
+  docVersion: 0.2.2
+  speakeasyVersion: 1.559.0
+  generationVersion: 2.624.0
+  releaseVersion: 0.1.0
+  configChecksum: b8c9c7d2741ae6618a0888d6ad1bf781
+  repoURL: https://github.com/cloudinary/structured-metadata-js.git
+  installationURL: https://github.com/cloudinary/structured-metadata-js
+  published: true
+features:
+  typescript:
+    additionalDependencies: 0.1.0
+    constsAndDefaults: 0.1.11
+    core: 3.21.10
+    customSecuritySchemes: 0.1.1
+    defaultEnabledRetries: 0.1.0
+    devContainers: 2.90.0
+    enumUnions: 0.1.0
+    envVarSecurityUsage: 0.1.2
+    flattening: 2.82.1
+    globalSecurity: 2.82.13
+    globalSecurityCallbacks: 0.1.0
+    globalServerURLs: 2.82.5
+    globals: 2.82.2
+    hiddenGlobals: 0.1.0
+    mcpServer: 0.9.2
+    nullables: 0.1.1
+    responseFormat: 0.2.3
+    retries: 2.83.0
+    sdkHooks: 0.3.0
+    unions: 2.85.9
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - .npmignore
+  - FUNCTIONS.md
+  - RUNTIMES.md
+  - USAGE.md
+  - docs/lib/utils/retryconfig.md
+  - docs/models/components/datasource.md
+  - docs/models/components/defaultvalue.md
+  - docs/models/components/errort.md
+  - docs/models/components/metadatafield.md
+  - docs/models/components/metadatafielddatasourcevalue.md
+  - docs/models/components/metadatafielddatasourcevaluesarray.md
+  - docs/models/components/metadatafieldstate.md
+  - docs/models/components/metadatarulecreate.md
+  - docs/models/components/metadatarulecreatecondition.md
+  - docs/models/components/metadatarulecreateresult.md
+  - docs/models/components/metadatarulecreatestate.md
+  - docs/models/components/metadataruleresponse.md
+  - docs/models/components/metadataruleresponsecondition.md
+  - docs/models/components/metadataruleresponseresult.md
+  - docs/models/components/metadataruleresponsestate.md
+  - docs/models/components/metadataruleupdate.md
+  - docs/models/components/metadataruleupdatecondition.md
+  - docs/models/components/metadataruleupdateresult.md
+  - docs/models/components/metadataruleupdatestate.md
+  - docs/models/components/restrictions.md
+  - docs/models/components/security.md
+  - docs/models/components/type.md
+  - docs/models/components/validation.md
+  - docs/models/components/value.md
+  - docs/models/errors/apierror.md
+  - docs/models/operations/createmetadatafieldglobals.md
+  - docs/models/operations/createmetadataruleglobals.md
+  - docs/models/operations/deletemetadatafielddatasourceglobals.md
+  - docs/models/operations/deletemetadatafielddatasourcerequest.md
+  - docs/models/operations/deletemetadatafielddatasourcerequestbody.md
+  - docs/models/operations/deletemetadatafieldglobals.md
+  - docs/models/operations/deletemetadatafieldrequest.md
+  - docs/models/operations/deletemetadatafieldresponse.md
+  - docs/models/operations/deletemetadataruleglobals.md
+  - docs/models/operations/deletemetadatarulerequest.md
+  - docs/models/operations/deletemetadataruleresponse.md
+  - docs/models/operations/direction.md
+  - docs/models/operations/getmetadatafieldglobals.md
+  - docs/models/operations/getmetadatafieldrequest.md
+  - docs/models/operations/listmetadatafieldsglobals.md
+  - docs/models/operations/listmetadatafieldsrequest.md
+  - docs/models/operations/listmetadatafieldsresponse.md
+  - docs/models/operations/listmetadatarulesglobals.md
+  - docs/models/operations/listmetadatarulesrequest.md
+  - docs/models/operations/listmetadatarulesresponse.md
+  - docs/models/operations/orderby.md
+  - docs/models/operations/payload.md
+  - docs/models/operations/reordermetadatafieldglobals.md
+  - docs/models/operations/reordermetadatafieldrequest.md
+  - docs/models/operations/reordermetadatafieldrequestbody.md
+  - docs/models/operations/reordermetadatafieldresponse.md
+  - docs/models/operations/reordermetadatafieldsglobals.md
+  - docs/models/operations/reordermetadatafieldsrequest.md
+  - docs/models/operations/reordermetadatafieldsresponse.md
+  - docs/models/operations/restoremetadatafielddatasourceglobals.md
+  - docs/models/operations/restoremetadatafielddatasourcerequest.md
+  - docs/models/operations/restoremetadatafielddatasourcerequestbody.md
+  - docs/models/operations/searchdatasourceinmdfieldglobals.md
+  - docs/models/operations/searchdatasourceinmdfieldrequest.md
+  - docs/models/operations/searchdatasourceinmdfieldrequestbody.md
+  - docs/models/operations/searchmetadatafielddatasourceglobals.md
+  - docs/models/operations/searchmetadatafielddatasourcerequest.md
+  - docs/models/operations/searchmetadatafielddatasourceresponse.md
+  - docs/models/operations/state.md
+  - docs/models/operations/updatemetadatafielddatasourceglobals.md
+  - docs/models/operations/updatemetadatafielddatasourcerequest.md
+  - docs/models/operations/updatemetadatafielddatasourcerequestbody.md
+  - docs/models/operations/updatemetadatafielddatasourceresponse.md
+  - docs/models/operations/updatemetadatafieldglobals.md
+  - docs/models/operations/updatemetadatafieldrequest.md
+  - docs/models/operations/updatemetadataruleglobals.md
+  - docs/models/operations/updatemetadatarulerequest.md
+  - docs/models/operations/value.md
+  - docs/sdks/cloudinarysmd/README.md
+  - docs/sdks/metadatafields/README.md
+  - docs/sdks/metadatarules/README.md
+  - eslint.config.mjs
+  - jsr.json
+  - package.json
+  - src/core.ts
+  - src/funcs/metadataFieldsCreateMetadataField.ts
+  - src/funcs/metadataFieldsDeleteMetadataField.ts
+  - src/funcs/metadataFieldsDeleteMetadataFieldDatasource.ts
+  - src/funcs/metadataFieldsGetMetadataField.ts
+  - src/funcs/metadataFieldsListMetadataFields.ts
+  - src/funcs/metadataFieldsReorderMetadataField.ts
+  - src/funcs/metadataFieldsReorderMetadataFields.ts
+  - src/funcs/metadataFieldsRestoreMetadataFieldDatasource.ts
+  - src/funcs/metadataFieldsSearchDatasourceInMDField.ts
+  - src/funcs/metadataFieldsSearchMetadataFieldDatasource.ts
+  - src/funcs/metadataFieldsUpdateMetadataField.ts
+  - src/funcs/metadataFieldsUpdateMetadataFieldDatasource.ts
+  - src/funcs/metadataRulesCreateMetadataRule.ts
+  - src/funcs/metadataRulesDeleteMetadataRule.ts
+  - src/funcs/metadataRulesListMetadataRules.ts
+  - src/funcs/metadataRulesUpdateMetadataRule.ts
+  - src/hooks/hooks.ts
+  - src/hooks/index.ts
+  - src/hooks/types.ts
+  - src/index.ts
+  - src/lib/base64.ts
+  - src/lib/config.ts
+  - src/lib/dlv.ts
+  - src/lib/encodings.ts
+  - src/lib/env.ts
+  - src/lib/files.ts
+  - src/lib/http.ts
+  - src/lib/is-plain-object.ts
+  - src/lib/logger.ts
+  - src/lib/matchers.ts
+  - src/lib/primitives.ts
+  - src/lib/retries.ts
+  - src/lib/schemas.ts
+  - src/lib/sdks.ts
+  - src/lib/security.ts
+  - src/lib/url.ts
+  - src/mcp-server/build.mts
+  - src/mcp-server/cli.ts
+  - src/mcp-server/cli/start/command.ts
+  - src/mcp-server/cli/start/impl.ts
+  - src/mcp-server/console-logger.ts
+  - src/mcp-server/extensions.ts
+  - src/mcp-server/mcp-server.ts
+  - src/mcp-server/prompts.ts
+  - src/mcp-server/resources.ts
+  - src/mcp-server/scopes.ts
+  - src/mcp-server/server.ts
+  - src/mcp-server/shared.ts
+  - src/mcp-server/tools.ts
+  - src/mcp-server/tools/metadataFieldsCreateMetadataField.ts
+  - src/mcp-server/tools/metadataFieldsDeleteMetadataField.ts
+  - src/mcp-server/tools/metadataFieldsDeleteMetadataFieldDatasource.ts
+  - src/mcp-server/tools/metadataFieldsGetMetadataField.ts
+  - src/mcp-server/tools/metadataFieldsListMetadataFields.ts
+  - src/mcp-server/tools/metadataFieldsUpdateMetadataField.ts
+  - src/mcp-server/tools/metadataFieldsUpdateMetadataFieldDatasource.ts
+  - src/mcp-server/tools/metadataRulesCreateMetadataRule.ts
+  - src/mcp-server/tools/metadataRulesDeleteMetadataRule.ts
+  - src/mcp-server/tools/metadataRulesListMetadataRules.ts
+  - src/mcp-server/tools/metadataRulesUpdateMetadataRule.ts
+  - src/models/components/apierror.ts
+  - src/models/components/index.ts
+  - src/models/components/metadatafield.ts
+  - src/models/components/metadatafielddatasourcevalue.ts
+  - src/models/components/metadatafielddatasourcevaluesarray.ts
+  - src/models/components/metadatarulecreate.ts
+  - src/models/components/metadataruleresponse.ts
+  - src/models/components/metadataruleupdate.ts
+  - src/models/components/security.ts
+  - src/models/errors/apierror.ts
+  - src/models/errors/cloudinarysmderror.ts
+  - src/models/errors/httpclienterrors.ts
+  - src/models/errors/index.ts
+  - src/models/errors/responsevalidationerror.ts
+  - src/models/errors/sdkerror.ts
+  - src/models/errors/sdkvalidationerror.ts
+  - src/models/operations/createmetadatafield.ts
+  - src/models/operations/createmetadatarule.ts
+  - src/models/operations/deletemetadatafield.ts
+  - src/models/operations/deletemetadatafielddatasource.ts
+  - src/models/operations/deletemetadatarule.ts
+  - src/models/operations/getmetadatafield.ts
+  - src/models/operations/index.ts
+  - src/models/operations/listmetadatafields.ts
+  - src/models/operations/listmetadatarules.ts
+  - src/models/operations/reordermetadatafield.ts
+  - src/models/operations/reordermetadatafields.ts
+  - src/models/operations/restoremetadatafielddatasource.ts
+  - src/models/operations/searchdatasourceinmdfield.ts
+  - src/models/operations/searchmetadatafielddatasource.ts
+  - src/models/operations/updatemetadatafield.ts
+  - src/models/operations/updatemetadatafielddatasource.ts
+  - src/models/operations/updatemetadatarule.ts
+  - src/sdk/index.ts
+  - src/sdk/metadatafields.ts
+  - src/sdk/metadatarules.ts
+  - src/sdk/sdk.ts
+  - src/types/async.ts
+  - src/types/blobs.ts
+  - src/types/constdatetime.ts
+  - src/types/enums.ts
+  - src/types/fp.ts
+  - src/types/index.ts
+  - src/types/operations.ts
+  - src/types/rfcdate.ts
+  - src/types/streams.ts
+  - tsconfig.json
+examples:
+  createMetadataField:
+    speakeasy-default-create-metadata-field:
+      parameters:
+        path:
+          cloud_name: "<value>"
+      requestBody:
+        application/json: {"type": "set", "label": "<value>"}
+      responses:
+        "200":
+          application/json: {"type": "set", "label": "<value>"}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  listMetadataFields:
+    speakeasy-default-list-metadata-fields:
+      parameters:
+        path:
+          cloud_name: "<value>"
+      responses:
+        "200":
+          application/json: {}
+        "401":
+          application/json: {"error": {"message": "<value>"}}
+  getMetadataField:
+    speakeasy-default-get-metadata-field:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+      responses:
+        "200":
+          application/json: {"type": "date", "label": "<value>"}
+        "401":
+          application/json: {"error": {"message": "<value>"}}
+  updateMetadataField:
+    speakeasy-default-update-metadata-field:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+      requestBody:
+        application/json: {"type": "date", "label": "<value>"}
+      responses:
+        "200":
+          application/json: {"type": "integer", "label": "<value>"}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  deleteMetadataField:
+    speakeasy-default-delete-metadata-field:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+      responses:
+        "200":
+          application/json: {"message": "<value>"}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  searchMetadataFieldDatasource:
+    speakeasy-default-search-metadata-field-datasource:
+      parameters:
+        path:
+          cloud_name: "<value>"
+      requestBody:
+        application/json: {"max_results": 100}
+      responses:
+        "200":
+          application/json: [{}]
+        "401":
+          application/json: {"error": {"message": "<value>"}}
+  reorderMetadataFields:
+    speakeasy-default-reorder-metadata-fields:
+      parameters:
+        path:
+          cloud_name: "<value>"
+      requestBody:
+        application/json: {"order_by": "external_id"}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  reorderMetadataField:
+    speakeasy-default-reorder-metadata-field:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+      requestBody:
+        application/json: {"position": 33651}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  updateMetadataFieldDatasource:
+    speakeasy-default-update-metadata-field-datasource:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  deleteMetadataFieldDatasource:
+    speakeasy-default-delete-metadata-field-datasource:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+      requestBody:
+        application/json: {"external_ids": ["<value 1>", "<value 2>"]}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  searchDatasourceInMDField:
+    speakeasy-default-search-datasource-in-MD-field:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+        query:
+          max_results: 255
+          exact_match: false
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          application/json: {}
+        "401":
+          application/json: {"error": {"message": "<value>"}}
+  restoreMetadataFieldDatasource:
+    speakeasy-default-restore-metadata-field-datasource:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+      requestBody:
+        application/json: {}
+      responses:
+        "200":
+          application/json: {}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  createMetadataRule:
+    speakeasy-default-create-metadata-rule:
+      parameters:
+        path:
+          cloud_name: "<value>"
+      requestBody:
+        application/json: {"metadata_field_id": "abcdefghij", "name": "My Rule", "condition": {}, "result": {}}
+      responses:
+        "200":
+          application/json: {"metadata_field_id": "abcdefghij", "name": "My Rule", "condition": {}, "result": {}, "external_id": "1234567890"}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  listMetadataRules:
+    speakeasy-default-list-metadata-rules:
+      parameters:
+        path:
+          cloud_name: "<value>"
+      responses:
+        "200":
+          application/json: {"metadata_rules": [{"metadata_field_id": "abcdefghij", "name": "My Rule", "condition": {}, "result": {}, "external_id": "1234567890"}]}
+        "401":
+          application/json: {"error": {"message": "<value>"}}
+  updateMetadataRule:
+    speakeasy-default-update-metadata-rule:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+      requestBody:
+        application/json: {"metadata_field_id": "abcdefghij", "name": "My Rule", "condition": {}, "result": {}, "external_id": "1234567890"}
+      responses:
+        "200":
+          application/json: {"metadata_field_id": "abcdefghij", "name": "My Rule", "condition": {}, "result": {}, "external_id": "1234567890"}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+  deleteMetadataRule:
+    speakeasy-default-delete-metadata-rule:
+      parameters:
+        path:
+          cloud_name: "<value>"
+          external_id: "<id>"
+      responses:
+        "200":
+          application/json: {"success": false}
+        "400":
+          application/json: {"error": {"message": "<value>"}}
+examplesVersion: 1.0.2
+generatedTests: {}
