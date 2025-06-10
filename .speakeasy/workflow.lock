@@ -1,0 +1,45 @@
+speakeasyVersion: 1.559.0
+sources:
+    Structured Metadata API:
+        sourceNamespace: structured-metadata-api
+        sourceRevisionDigest: sha256:d01541c3a0206c02c2fa3a1496e76b2728e4c56f7acb4374836e39e8b1198514
+        sourceBlobDigest: sha256:bd1d50a377b6ec12f66f1bd3b3971f0e3fa5e5d378f7637803baff446634208f
+        tags:
+            - latest
+            - speakeasy-sdk-regen-1749575191
+            - 0.2.2
+targets:
+    structured-metadata-js:
+        source: Structured Metadata API
+        sourceNamespace: structured-metadata-api
+        sourceRevisionDigest: sha256:d01541c3a0206c02c2fa3a1496e76b2728e4c56f7acb4374836e39e8b1198514
+        sourceBlobDigest: sha256:bd1d50a377b6ec12f66f1bd3b3971f0e3fa5e5d378f7637803baff446634208f
+        codeSamplesNamespace: structured-metadata-api-typescript-code-samples
+        codeSamplesRevisionDigest: sha256:2a4877aefb8e439d60072b92705eb375861e1c24187e477bcf8d5aaf1f5a5c08
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Structured Metadata API:
+            inputs:
+                - location: https://cloudinary.github.io/api-schemas/structured-metadata/schema.yml
+            overlays:
+                - location: https://cloudinary.github.io/api-schemas/overlays/security-scheme-cloud-overlay.yaml
+                - location: https://cloudinary.github.io/api-schemas/overlays/cloud-name-overlay.yml
+                - location: https://cloudinary.github.io/api-schemas/overlays/mcp-disabled.yml
+                - location: https://cloudinary.github.io/api-schemas/overlays/remove-mcp-description.yml
+            registry:
+                location: registry.speakeasyapi.dev/cloudinary/cloudinary/structured-metadata-api
+    targets:
+        structured-metadata-js:
+            target: typescript
+            source: Structured Metadata API
+            publish:
+                npm:
+                    token: $npm_token
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/cloudinary/cloudinary/structured-metadata-api-typescript-code-samples
+                labelOverride:
+                    fixedValue: Typescript (SDK)
+                blocking: false
