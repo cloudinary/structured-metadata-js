@@ -1,0 +1,61 @@
+configVersion: 2.0.0
+generation:
+  devContainers:
+    enabled: true
+    schemaPath: https://cloudinary.github.io/api-schemas/structured-metadata/schema.yml
+  sdkClassName: CloudinarySMD
+  maintainOpenAPIOrder: true
+  usageSnippets:
+    optionalPropertyRendering: withExample
+    sdkInitStyle: constructor
+  useClassNamesForArrayFields: true
+  fixes:
+    nameResolutionDec2023: true
+    nameResolutionFeb2025: true
+    parameterOrderingFeb2024: true
+    requestResponseComponentNamesFeb2024: true
+    securityFeb2025: true
+    sharedErrorComponentsApr2025: true
+  auth:
+    oAuth2ClientCredentialsEnabled: true
+    oAuth2PasswordEnabled: true
+  sdkHooksConfigAccess: true
+typescript:
+  version: 0.1.0
+  additionalDependencies:
+    dependencies: {}
+    devDependencies: {}
+    peerDependencies: {}
+  additionalPackageJSON: {}
+  author: Cloudinary
+  authors:
+    - Cloudinary
+    - Speakeasy
+  baseErrorName: CloudinarySMDError
+  clientServerStatusCodesAsErrors: true
+  defaultErrorName: SDKError
+  enableCustomCodeRegions: false
+  enableMCPServer: true
+  enableReactQuery: false
+  enumFormat: union
+  envVarPrefix: CLOUDINARY
+  flattenGlobalSecurity: true
+  flatteningOrder: parameters-first
+  imports:
+    option: openapi
+    paths:
+      callbacks: models/callbacks
+      errors: models/errors
+      operations: models/operations
+      shared: models/components
+      webhooks: models/webhooks
+  inputModelSuffix: input
+  jsonpath: legacy
+  maxMethodParams: 50
+  methodArguments: require-security-and-request
+  moduleFormat: commonjs
+  outputModelSuffix: output
+  packageName: '@cloudinary/structured-metadata'
+  responseFormat: flat
+  templateVersion: v2
+  useIndexModules: true
