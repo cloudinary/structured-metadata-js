@@ -1,12 +1,12 @@
 lockVersion: 2.0.0
 id: 69cd9a2e-6429-4c97-b659-d491fb64de7b
 management:
-  docChecksum: b9af8a0da3a9dff37b670275e1731568
-  docVersion: 0.2.2
-  speakeasyVersion: 1.559.0
-  generationVersion: 2.624.0
-  releaseVersion: 0.1.0
-  configChecksum: b8c9c7d2741ae6618a0888d6ad1bf781
+  docChecksum: 6f51269379c33885f68a7c403d43ebec
+  docVersion: 0.2.4
+  speakeasyVersion: 1.561.0
+  generationVersion: 2.628.0
+  releaseVersion: 0.1.1
+  configChecksum: f2dcb1b81ee630029b0d3f4d3775ff8d
   repoURL: https://github.com/cloudinary/structured-metadata-js.git
   installationURL: https://github.com/cloudinary/structured-metadata-js
   published: true
@@ -14,7 +14,7 @@ features:
   typescript:
     additionalDependencies: 0.1.0
     constsAndDefaults: 0.1.11
-    core: 3.21.10
+    core: 3.21.11
     customSecuritySchemes: 0.1.1
     defaultEnabledRetries: 0.1.0
     devContainers: 2.90.0
@@ -385,10 +385,10 @@ examples:
         path:
           cloud_name: "<value>"
       requestBody:
-        application/json: {"metadata_field_id": "abcdefghij", "name": "My Rule", "condition": {}, "result": {}}
+        application/json: {"metadata_field_id": "smd-field-1", "name": "My Rule", "condition": {}, "result": {}, "state": "active", "position": 1}
       responses:
         "200":
-          application/json: {"metadata_field_id": "abcdefghij", "name": "My Rule", "condition": {}, "result": {}, "external_id": "1234567890"}
+          application/json: {"metadata_field_id": "smd-field-1", "name": "My Rule", "condition": {}, "result": {}, "state": "active", "position": 1}
         "400":
           application/json: {"error": {"message": "<value>"}}
   listMetadataRules:
@@ -408,10 +408,10 @@ examples:
           cloud_name: "<value>"
           external_id: "<id>"
       requestBody:
-        application/json: {"metadata_field_id": "abcdefghij", "name": "My Rule", "condition": {}, "result": {}, "external_id": "1234567890"}
+        application/json: {"metadata_field_id": "smd-field-1", "name": "My Rule", "condition": {}, "result": {}, "state": "active", "position": 1}
       responses:
         "200":
-          application/json: {"metadata_field_id": "abcdefghij", "name": "My Rule", "condition": {}, "result": {}, "external_id": "1234567890"}
+          application/json: {"metadata_field_id": "smd-field-1", "name": "My Rule", "condition": {}, "result": {}, "state": "active", "position": 1}
         "400":
           application/json: {"error": {"message": "<value>"}}
   deleteMetadataRule:

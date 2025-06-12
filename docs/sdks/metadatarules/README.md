@@ -31,10 +31,12 @@ const cloudinarySMD = new CloudinarySMD({
 
 async function run() {
   const result = await cloudinarySMD.metadataRules.createMetadataRule({
-    metadataFieldId: "abcdefghij",
+    metadataFieldId: "smd-field-1",
     name: "My Rule",
     condition: {},
     result: {},
+    state: "active",
+    position: 1,
   });
 
   console.log(result);
@@ -63,10 +65,12 @@ const cloudinarySMD = new CloudinarySMDCore({
 
 async function run() {
   const res = await metadataRulesCreateMetadataRule(cloudinarySMD, {
-    metadataFieldId: "abcdefghij",
+    metadataFieldId: "smd-field-1",
     name: "My Rule",
     condition: {},
     result: {},
+    state: "active",
+    position: 1,
   });
   if (res.ok) {
     const { value: result } = res;
@@ -199,11 +203,12 @@ const cloudinarySMD = new CloudinarySMD({
 
 async function run() {
   const result = await cloudinarySMD.metadataRules.updateMetadataRule("<id>", {
-    metadataFieldId: "abcdefghij",
+    metadataFieldId: "smd-field-1",
     name: "My Rule",
     condition: {},
     result: {},
-    externalId: "1234567890",
+    state: "active",
+    position: 1,
   });
 
   console.log(result);
@@ -232,11 +237,12 @@ const cloudinarySMD = new CloudinarySMDCore({
 
 async function run() {
   const res = await metadataRulesUpdateMetadataRule(cloudinarySMD, "<id>", {
-    metadataFieldId: "abcdefghij",
+    metadataFieldId: "smd-field-1",
     name: "My Rule",
     condition: {},
     result: {},
-    externalId: "1234567890",
+    state: "active",
+    position: 1,
   });
   if (res.ok) {
     const { value: result } = res;

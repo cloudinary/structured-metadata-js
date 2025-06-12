@@ -58,10 +58,6 @@ export type MetadataRuleUpdate = {
    * The position/order of this rule relative to other rules.
    */
   position?: number | undefined;
-  /**
-   * The unique identifier of the metadata rule.
-   */
-  externalId?: string | undefined;
 };
 
 /** @internal */
@@ -195,11 +191,9 @@ export const MetadataRuleUpdate$inboundSchema: z.ZodType<
   result: z.lazy(() => MetadataRuleUpdateResult$inboundSchema).optional(),
   state: MetadataRuleUpdateState$inboundSchema.optional(),
   position: z.number().int().optional(),
-  external_id: z.string().optional(),
 }).transform((v) => {
   return remap$(v, {
     "metadata_field_id": "metadataFieldId",
-    "external_id": "externalId",
   });
 });
 
@@ -211,7 +205,6 @@ export type MetadataRuleUpdate$Outbound = {
   result?: MetadataRuleUpdateResult$Outbound | undefined;
   state?: string | undefined;
   position?: number | undefined;
-  external_id?: string | undefined;
 };
 
 /** @internal */
@@ -227,11 +220,9 @@ export const MetadataRuleUpdate$outboundSchema: z.ZodType<
   result: z.lazy(() => MetadataRuleUpdateResult$outboundSchema).optional(),
   state: MetadataRuleUpdateState$outboundSchema.optional(),
   position: z.number().int().optional(),
-  externalId: z.string().optional(),
 }).transform((v) => {
   return remap$(v, {
     metadataFieldId: "metadata_field_id",
-    externalId: "external_id",
   });
 });
 
