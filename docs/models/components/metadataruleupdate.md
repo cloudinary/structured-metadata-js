@@ -6,11 +6,12 @@
 import { MetadataRuleUpdate } from "@cloudinary/structured-metadata/models/components";
 
 let value: MetadataRuleUpdate = {
-  metadataFieldId: "abcdefghij",
+  metadataFieldId: "smd-field-1",
   name: "My Rule",
   condition: {},
   result: {},
-  externalId: "1234567890",
+  state: "active",
+  position: 1,
 };
 ```
 
@@ -24,4 +25,3 @@ let value: MetadataRuleUpdate = {
 | `result`                                                                                         | [components.MetadataRuleUpdateResult](../../models/components/metadataruleupdateresult.md)       | :heavy_minus_sign:                                                                               | The result to apply when the condition is met, should adhere to the metadata rule result schema. |
 | `state`                                                                                          | [components.MetadataRuleUpdateState](../../models/components/metadataruleupdatestate.md)         | :heavy_minus_sign:                                                                               | The state of the rule.                                                                           |
 | `position`                                                                                       | *number*                                                                                         | :heavy_minus_sign:                                                                               | The position/order of this rule relative to other rules.                                         |
-| `externalId`                                                                                     | *string*                                                                                         | :heavy_minus_sign:                                                                               | The unique identifier of the metadata rule.                                                      |

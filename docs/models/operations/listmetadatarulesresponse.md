@@ -10,11 +10,22 @@ import { ListMetadataRulesResponse } from "@cloudinary/structured-metadata/model
 let value: ListMetadataRulesResponse = {
   metadataRules: [
     {
-      metadataFieldId: "abcdefghij",
+      metadataFieldId: "smd-field-1",
       name: "My Rule",
       condition: {},
       result: {},
+      state: "active",
+      position: 1,
+    },
+    {
+      metadataFieldId: "smd-field-1",
+      name: "My Rule",
+      condition: {},
+      result: {},
+      state: "active",
+      position: 1,
       externalId: "1234567890",
+      conditionSignature: "dGhlIGZveCBqdW1wZWQgb3ZlciB0aGUgbGF6eSBkb2c",
     },
   ],
 };

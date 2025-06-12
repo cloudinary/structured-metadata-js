@@ -6,11 +6,12 @@
 import { MetadataRuleResponse } from "@cloudinary/structured-metadata/models/components";
 
 let value: MetadataRuleResponse = {
-  metadataFieldId: "abcdefghij",
+  metadataFieldId: "smd-field-1",
   name: "My Rule",
   condition: {},
   result: {},
-  externalId: "1234567890",
+  state: "active",
+  position: 1,
 };
 ```
 
