@@ -19,3 +19,13 @@ Based on:
 - [typescript v0.1.1] .
 ### Releases
 - [NPM v0.1.1] https://www.npmjs.com/package/@cloudinary/structured-metadata/v/0.1.1 - .
+
+## 2025-06-17 11:01:16
+### Changes
+Based on:
+- OpenAPI Doc  
+- Speakeasy CLI 1.563.4 (2.630.6) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [typescript v0.1.2] .
+### Releases
+- [NPM v0.1.2] https://www.npmjs.com/package/@cloudinary/structured-metadata/v/0.1.2 - .
