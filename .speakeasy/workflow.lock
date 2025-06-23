@@ -2,20 +2,20 @@ speakeasyVersion: 1.568.0
 sources:
     Structured Metadata API:
         sourceNamespace: structured-metadata-api
-        sourceRevisionDigest: sha256:663b31e3f7fd4da9ae3a03690b061367ef5b1fd499f53960ee710d4562beb590
+        sourceRevisionDigest: sha256:abfab928ccf7419cccc9ba595cd67adb1d0cbbf680093e9c480ce17fd5c9476f
         sourceBlobDigest: sha256:2a1934ceed0a384aa6370a9a38d4da6f0ce683be2f5748f456de0737b09df3d3
         tags:
             - latest
-            - speakeasy-sdk-regen-1750681507
+            - speakeasy-sdk-regen-1750695687
             - 0.3.0
 targets:
     structured-metadata-js:
         source: Structured Metadata API
         sourceNamespace: structured-metadata-api
-        sourceRevisionDigest: sha256:663b31e3f7fd4da9ae3a03690b061367ef5b1fd499f53960ee710d4562beb590
+        sourceRevisionDigest: sha256:abfab928ccf7419cccc9ba595cd67adb1d0cbbf680093e9c480ce17fd5c9476f
         sourceBlobDigest: sha256:2a1934ceed0a384aa6370a9a38d4da6f0ce683be2f5748f456de0737b09df3d3
         codeSamplesNamespace: structured-metadata-api-typescript-code-samples
-        codeSamplesRevisionDigest: sha256:224c83e8dd0b37bb04aa2661e202c4ff5eb27a73804165fac45c72c24011ce69
+        codeSamplesRevisionDigest: sha256:779cd3b9f3f85878c82e54a968ccf35275ebe6ff5a26fa0663e58546860783ae
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest

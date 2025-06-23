@@ -5,8 +5,8 @@ management:
   docVersion: 0.3.0
   speakeasyVersion: 1.568.0
   generationVersion: 2.632.2
-  releaseVersion: 0.2.0
-  configChecksum: a5669510a4b738497e67640b676fdfce
+  releaseVersion: 0.2.1
+  configChecksum: a1ce911a221fead6dbd608044f92f83a
   repoURL: https://github.com/cloudinary/structured-metadata-js.git
   installationURL: https://github.com/cloudinary/structured-metadata-js
   published: true
