@@ -5,8 +5,10 @@ import { CloudinarySMD } from "@cloudinary/structured-metadata";
 const cloudinarySMD = new CloudinarySMD({
   cloudName: "<value>",
   security: {
-    apiKey: "CLOUDINARY_API_KEY",
-    apiSecret: "CLOUDINARY_API_SECRET",
+    cloudinaryAuth: {
+      apiKey: "CLOUDINARY_API_KEY",
+      apiSecret: "CLOUDINARY_API_SECRET",
+    },
   },
 });
 

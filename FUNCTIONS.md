@@ -27,8 +27,10 @@ import { metadataFieldsCreateMetadataField } from "@cloudinary/structured-metada
 const cloudinarySMD = new CloudinarySMDCore({
   cloudName: "<value>",
   security: {
-    apiKey: "CLOUDINARY_API_KEY",
-    apiSecret: "CLOUDINARY_API_SECRET",
+    cloudinaryAuth: {
+      apiKey: "CLOUDINARY_API_KEY",
+      apiSecret: "CLOUDINARY_API_SECRET",
+    },
   },
 });
 

@@ -1,19 +1,19 @@
 lockVersion: 2.0.0
 id: 69cd9a2e-6429-4c97-b659-d491fb64de7b
 management:
-  docChecksum: 6f51269379c33885f68a7c403d43ebec
-  docVersion: 0.2.4
-  speakeasyVersion: 1.563.4
-  generationVersion: 2.630.6
-  releaseVersion: 0.1.2
-  configChecksum: b34d7877704a43d7ff7209ee93bbc582
+  docChecksum: d064c00ef7f0732792a22522f2876b03
+  docVersion: 0.3.0
+  speakeasyVersion: 1.568.0
+  generationVersion: 2.632.2
+  releaseVersion: 0.2.0
+  configChecksum: a5669510a4b738497e67640b676fdfce
   repoURL: https://github.com/cloudinary/structured-metadata-js.git
   installationURL: https://github.com/cloudinary/structured-metadata-js
   published: true
 features:
   typescript:
     additionalDependencies: 0.1.0
-    constsAndDefaults: 0.1.11
+    constsAndDefaults: 0.1.12
     core: 3.21.11
     customSecuritySchemes: 0.1.1
     defaultEnabledRetries: 0.1.0
@@ -31,7 +31,7 @@ features:
     responseFormat: 0.2.3
     retries: 2.83.0
     sdkHooks: 0.3.0
-    unions: 2.85.10
+    unions: 2.85.11
 generatedFiles:
   - .devcontainer/README.md
   - .devcontainer/devcontainer.json
@@ -62,6 +62,7 @@ generatedFiles:
   - docs/models/components/metadataruleupdateresult.md
   - docs/models/components/metadataruleupdatestate.md
   - docs/models/components/restrictions.md
+  - docs/models/components/schemecloudinaryauth.md
   - docs/models/components/security.md
   - docs/models/components/type.md
   - docs/models/components/validation.md
@@ -190,6 +191,7 @@ generatedFiles:
   - src/models/components/metadatarulecreate.ts
   - src/models/components/metadataruleresponse.ts
   - src/models/components/metadataruleupdate.ts
+  - src/models/components/schemecloudinaryauth.ts
   - src/models/components/security.ts
   - src/models/errors/apierror.ts
   - src/models/errors/cloudinarysmderror.ts
