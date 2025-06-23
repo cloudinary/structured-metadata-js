@@ -9,4 +9,5 @@ export * from "./metadatafielddatasourcevaluesarray.js";
 export * from "./metadatarulecreate.js";
 export * from "./metadataruleresponse.js";
 export * from "./metadataruleupdate.js";
+export * from "./schemecloudinaryauth.js";
 export * from "./security.js";
